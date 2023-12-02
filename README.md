@@ -11,8 +11,8 @@ The aim of this project is to demonstrate the use of Postman for API testing and
  4. Authentication: AccessData variable contains the username and password for authentication.
  
 ## Requirements
-Postman: Ensure you have Postman installed on your system.
-Newman: For generating reports through the command line.
+1. Postman: Ensure you have Postman installed on your system.
+2. Newman: For generating reports through the command line.
 Usage
 Import the provided Postman collection and environment into your Postman application.
 Select the "AssignmentEnvironment" for the collection to utilize the predefined variables.
