@@ -5,10 +5,10 @@ This project utilizes Postman to interact with the Booking API available at http
 The aim of this project is to demonstrate the use of Postman for API testing and interaction with the Booking API. It includes various API requests such as GET, POST, PUT, PATCH, and DELETE.
 
 ## Features
- Environment Setup: Configured "AssignmentEnvironment" to streamline collection execution.
- URL Variable: Utilizes the url variable to store the common part of the API URL.
- ID Tracking: Uses the myID variable to capture generated IDs from API responses.
- Authentication: AccessData variable contains the username and password for authentication.
+ 1. Environment Setup: Configured "AssignmentEnvironment" to streamline collection execution.
+ 2.  URL Variable: Utilizes the url variable to store the common part of the API URL.
+ 3. ID Tracking: Uses the myID variable to capture generated IDs from API responses.
+ 4. Authentication: AccessData variable contains the username and password for authentication.
  
 ## Requirements
 Postman: Ensure you have Postman installed on your system.
