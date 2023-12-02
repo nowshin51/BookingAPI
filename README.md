@@ -9,7 +9,8 @@ The aim of this project is to demonstrate the use of Postman for API testing and
  URL Variable: Utilizes the url variable to store the common part of the API URL.
  ID Tracking: Uses the myID variable to capture generated IDs from API responses.
  Authentication: AccessData variable contains the username and password for authentication.
-Requirements
+ 
+## Requirements
 Postman: Ensure you have Postman installed on your system.
 Newman: For generating reports through the command line.
 Usage
