@@ -1,14 +1,14 @@
-### BookingAPI
+## BookingAPI
 This project utilizes Postman to interact with the Booking API available at https://restful-booker.herokuapp.com/booking/. An environment named "AssignmentEnvironment" has been configured to facilitate the execution of collections, including variables such as url for storing the common part of the URL, myID for capturing generated IDs, and AccessData for authentication with credentials (username: 'admin', password: 'admin123').
 
 ## Project Overview
 The aim of this project is to demonstrate the use of Postman for API testing and interaction with the Booking API. It includes various API requests such as GET, POST, PUT, PATCH, and DELETE.
 
 ## Features
-# Environment Setup: Configured "AssignmentEnvironment" to streamline collection execution.
-# URL Variable: Utilizes the url variable to store the common part of the API URL.
-# ID Tracking: Uses the myID variable to capture generated IDs from API responses.
-# Authentication: AccessData variable contains the username and password for authentication.
+ Environment Setup: Configured "AssignmentEnvironment" to streamline collection execution.
+ URL Variable: Utilizes the url variable to store the common part of the API URL.
+ ID Tracking: Uses the myID variable to capture generated IDs from API responses.
+ Authentication: AccessData variable contains the username and password for authentication.
 Requirements
 Postman: Ensure you have Postman installed on your system.
 Newman: For generating reports through the command line.
