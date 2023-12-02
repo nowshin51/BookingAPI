@@ -28,15 +28,16 @@ The aim of this project is to demonstrate the use of Postman for API testing and
 5. PATCH PartialUpdate: Partially updates existing data.
 6. DELETE DeleteInfo: Deletes specific information.
  
-Report Generation with Newman
+## Report Generation with Newman
    
-Newman Tool: Use Newman for command-line execution of collections and report generation.
+1. Newman Tool: Use Newman for command-line execution of collections and report generation.
 
-Command: Example command to run the collection and generate a report:
+2. Command: Example command to run the collection and generate a report:
 
-bash
+```bash
 Copy code
 newman run YourCollection.json -e YourEnvironment.json --reporters cli,html --reporter-html-export report.html
+```
 Notes
 Authentication: Use the provided credentials for authentication in API requests.
 Environment Configuration: Adjust the environment variables as required for your use case.
