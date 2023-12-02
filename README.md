@@ -38,12 +38,8 @@ The aim of this project is to demonstrate the use of Postman for API testing and
 Copy code
 newman run YourCollection.json -e YourEnvironment.json --reporters cli,html --reporter-html-export report.html
 ```
-Notes
-Authentication: Use the provided credentials for authentication in API requests.
-Environment Configuration: Adjust the environment variables as required for your use case.
-Contributors
-Your Name
-Acknowledgments
-Special thanks to the creators of the Booking API, Postman, and Newman for facilitating API testing and automation.
+## Notes
+1. Authentication: Use the provided credentials for authentication in API requests.
+2. Environment Configuration: Adjust the environment variables as required for your use case.
 
    
