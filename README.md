@@ -14,20 +14,22 @@ The aim of this project is to demonstrate the use of Postman for API testing and
 1. Postman: Ensure you have Postman installed on your system.
 2. Newman: For generating reports through the command line.
 
-##Usage
+## Usage
 1. Import the provided Postman collection and environment into your Postman application.
 2. Select the "AssignmentEnvironment" for the collection to utilize the predefined variables.
 3. Configure any additional settings or parameters required for the requests.
 4. Execute the collection to perform the desired API operations.
 
-Collection Endpoints
-GET Data: Retrieves data from the API.
-POST CustomerInfo: Creates new customer information.
-POST Authentication: Handles user authentication.
-PUT UpdateInfo: Updates existing information.
-PATCH PartialUpdate: Partially updates existing data.
-DELETE DeleteInfo: Deletes specific information.
+## Collection Endpoints
+1. GET Data: Retrieves data from the API.
+2. POST CustomerInfo: Creates new customer information.
+3. POST Authentication: Handles user authentication.
+4. PUT UpdateInfo: Updates existing information.
+5. PATCH PartialUpdate: Partially updates existing data.
+6. DELETE DeleteInfo: Deletes specific information.
+ 
 Report Generation with Newman
+   
 Newman Tool: Use Newman for command-line execution of collections and report generation.
 
 Command: Example command to run the collection and generate a report:
